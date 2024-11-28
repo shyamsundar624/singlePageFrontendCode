@@ -1,0 +1,49 @@
+/* Box styling */
+.form-box {
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Padding and margin inside the box */
+  .form-box .form-group {
+    margin-bottom: 1.5rem; /* Add spacing between form fields */
+  }
+  
+  .form-box h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .form-box .form-control {
+    border-radius: 8px; /* Rounded inputs */
+  }
+  
+  /* Form control focus */
+  .form-control:focus {
+    border-color: #007bff; /* Blue border when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow */
+  }
+  
+  .btn-primary {
+    border-radius: 25px; /* Rounded submit button */
+    padding: 0.75rem 2rem; /* Padding for the button */
+    font-size: 1.1rem; /* Font size */
+  }
+  
+  /* Button hover effect */
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-danger {
+    font-size: 0.875rem;
+    color: #dc3545; /* Red color for errors */
+  }
+  
